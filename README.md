@@ -49,9 +49,9 @@ Just place `<script src="preCode.js"></script>` into your `<head>`.
 
 ### Caveats
 
-- The code binds to the `DOMConentLoaded` event, so make sure to place it before any syntax highlighters or code editors are bound/called.
+- The code binds to the `DOMContentLoaded` event, so make sure to place it before any syntax highlighters or code editors are bound/called.
 - Beware that native goodies are used, so sucks to your old browser, Piggy!
   - `Array.forEach`
   - `document.querySelectorAll`
   - `element.textContent`
-  - `addEventListener` via `DOMConentLoaded`
+  - `addEventListener` via `DOMContentLoaded`
