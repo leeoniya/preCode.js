@@ -33,9 +33,7 @@
 			if (min == 1e3)
 				return;
 
-			txt = txt.replace(new RegExp("^" + str, 'gm'), "");
-
-			el.textContent = txt;
+			el.textContent = txt.replace(new RegExp("^" + str, 'gm'), "");
 		});
 	}
 
