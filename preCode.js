@@ -2,7 +2,7 @@
 * Copyright (c) 2013, Leon Sorokin
 * All rights reserved. (MIT Licensed)
 *
-* preCode.js - pain killer for <pre><code> & <textarea>
+* preCode.js - painkiller for <pre><code> & <textarea>
 */
 
 (function() {

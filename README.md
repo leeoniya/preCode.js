@@ -1,5 +1,5 @@
 ## preCode.js
-_pain killer for &lt;pre&gt;&lt;code&gt; & &lt;textarea&gt;_
+_painkiller for &lt;pre&gt;&lt;code&gt; & &lt;textarea&gt;_
 
 A quickie that'll automatically outdent any code snippets nested in your html, allowing you to write cleaner markup.
 
