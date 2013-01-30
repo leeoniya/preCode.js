@@ -45,7 +45,7 @@ A quickie that'll automatically outdent any code snippets nested in your html, a
 
 ### Usage
 
-Just place `<script src="precode.js"></script>` into your `<head>`.
+Just place `<script src="preCode.js"></script>` into your `<head>`.
 
 ### Caveats
 
