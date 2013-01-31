@@ -54,4 +54,4 @@ Just place `<script src="preCode.js"></script>` into your `<head>`.
   - `Array.forEach`
   - `document.querySelectorAll`
   - `element.textContent`
-  - `addEventListener` via `DOMContentLoaded`
+  - `DOMContentLoaded` via `addEventListener`
