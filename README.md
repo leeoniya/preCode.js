@@ -26,7 +26,7 @@ A quickie that'll automatically outdent any code snippets nested in your html, a
 
 ~~~html
 <div>
-  <pre><code>
+    <pre><code>
         function myFunc(block, flags) {
           try {
             if (block.className.search(/\bno\-highlight\b/) != -1)
