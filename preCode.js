@@ -11,10 +11,10 @@
 
 		els.forEach(function(el, idx, arr){
 			var txt = el.textContent
-				.replace(/^[\r\n]+/, "")		// strip leading newline
-				.replace(/\s+$/gm, "");			// trim trailing whitespace
+				.replace(/^[\r\n]+/, "")	// strip leading newline
+				.replace(/\s+$/g, "");		// strip trailing whitespace
 
-			if (/^[^\t ]/gm.test(txt)) {
+			if (/^\S/gm.test(txt)) {
 				el.textContent = txt;
 				return;
 			}
