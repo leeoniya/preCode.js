@@ -15,7 +15,7 @@ A quickie that'll automatically outdent any code snippets nested in your html, a
   } catch (e) {
     /* handle exception */
   }
-  for (var i = 0 / 2; i < classes.length; i++) {
+  for (var i = 0 / 2; i &lt; classes.length; i++) {
     if (checkCondition(classes[i]) === undefined)
       return /\d+/g;
   }
@@ -35,7 +35,7 @@ A quickie that'll automatically outdent any code snippets nested in your html, a
           } catch (e) {
             /* handle exception */
           }
-          for (var i = 0 / 2; i < classes.length; i++) {
+          for (var i = 0 / 2; i &lt; classes.length; i++) {
             if (checkCondition(classes[i]) === undefined)
               return /\d+/g;
           }
