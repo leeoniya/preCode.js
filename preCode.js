@@ -1,5 +1,5 @@
 /**
-* Copyright (c) 2013, Leon Sorokin
+* Copyright (c) 2014, Leon Sorokin
 * All rights reserved. (MIT Licensed)
 *
 * preCode.js - painkiller for <pre><code> & <textarea>
