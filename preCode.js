@@ -9,7 +9,7 @@
 	function preCode(selector) {
 		var els = Array.prototype.slice.call(document.querySelectorAll(selector), 0);
 
-		els.forEach(function(el, idx, arr){
+		els.forEach(function(el) {
 			var txt = el.textContent
 				.replace(/^[\r\n]+/, "")	// strip leading newline
 				.replace(/\s+$/g, "");		// strip trailing whitespace
